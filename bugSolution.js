@@ -1,0 +1,1 @@
+function foo(a, b) {    if (Number.isNaN(a) || Number.isNaN(b)) {        return false; // Or handle NaN as needed    } else if (a === b) {        return true;    } else {        return false;    }} 
